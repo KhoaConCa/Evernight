@@ -12,9 +12,9 @@ namespace Vox.Core.Pistols
     {
         #region --- Implementation ---
 
-        public void Initialize()
+        public string Initialize()
         {
-            Debug.Log($"{WeaponName} initialized.");
+            return $"{WeaponName} initialized.";
         }
 
         public virtual void Shoot()

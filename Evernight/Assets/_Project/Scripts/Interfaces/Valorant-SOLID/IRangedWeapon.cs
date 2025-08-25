@@ -13,7 +13,7 @@ namespace Vox.Interfaces
         /// <summary>
         /// Initialize the weapon with a specific type.
         /// </summary>
-        void Initialize();
+        string Initialize();
 
         /// <summary>
         /// Executes a shooting action.
